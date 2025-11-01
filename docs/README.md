@@ -2,34 +2,42 @@
 
 ## Sobre
 
-Projeto de HTML da faculdade. Fiz 3 páginas básicas de um site de ONG.
+Projeto de HTML e CSS da faculdade. Site básico de uma ONG com formulário de cadastro.
 
 ## O que tem
 
-- 3 páginas HTML simples
-- Formulário de cadastro
-- Tags semânticas básicas
+**Prática 01 (HTML):**
+- 3 páginas HTML com tags semânticas
+- Formulário completo de cadastro
+- Navegação entre páginas
+- Imagens
 
-## Páginas
+**Prática 02 (CSS):**
+- CSS responsivo
+- Design system com variáveis
+- Menu hambúrguer mobile
+- Formulário estilizado
 
-**index.html** - página inicial com info básica da ONG e contato
+## Tecnologias
 
-**projetos.html** - lista de projetos e como ajudar  
+- HTML5
+- CSS3
 
-**cadastro.html** - formulário pra cadastrar voluntário
+## Estrutura
 
-## Formulário
-
-Tem os campos que o professor pediu:
-- Nome
-- Email  
-- CPF (com máscara)
-- Telefone (com máscara)
-- Data nascimento
-- Endereço
-- CEP (com máscara)
-- Cidade
-- Estado
+```
+projeto/
+├── index.html
+├── projetos.html
+├── cadastro.html
+├── css/
+│   └── styles.css
+└── img/
+    ├── logo.png
+    ├── banner.png
+    ├── projeto.png
+    └── sobre.png
+```
 
 ## Como testar
 
