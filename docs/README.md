@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Projeto de HTML e CSS da faculdade. Site básico de uma ONG com formulário de cadastro.
+Projeto de HTML, CSS e JavaScript da faculdade. Site de uma ONG com formulário validado.
 
 ## O que tem
 
@@ -18,10 +18,16 @@ Projeto de HTML e CSS da faculdade. Site básico de uma ONG com formulário de c
 - Menu hambúrguer mobile
 - Formulário estilizado
 
+**Prática 03 (JavaScript):**
+- Validação de formulário com alerts
+- Verificação de CPF, telefone e CEP
+- Mensagens de erro personalizadas
+
 ## Tecnologias
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## Estrutura
 
@@ -32,6 +38,8 @@ projeto/
 ├── cadastro.html
 ├── css/
 │   └── styles.css
+├── js/
+│   └── scripts.js
 └── img/
     ├── logo.png
     ├── banner.png
