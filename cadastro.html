@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Projeto ONG</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="Logo" style="max-width: 100px;">
+        <img src="img/logo.png" alt="Logo">
         <h1>Projeto ONG</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
@@ -20,7 +22,7 @@
 
     <main>
         <section>
-            <img src="img/sobre.png" alt="Voluntários" style="max-width: 100%; height: auto;">
+            <img src="img/sobre.png" alt="Voluntários">
             <h2>Cadastro de Voluntários</h2>
             <p>Preencha o formulário abaixo para se cadastrar como voluntário.</p>
 
@@ -87,5 +89,11 @@
     <footer>
         <p>&copy; 2024 Projeto ONG</p>
     </footer>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById('menu').classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
